@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({str}) => {
     return(
-        <div> 
-            Hello World!
+        <div className="header"> 
+            {`${str}`}
         </div>
     )
 }

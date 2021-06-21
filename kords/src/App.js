@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <GenButton type={"button"} value={"Click Me Bitch"} str={"click me"}/>
+      <Header str={"Chords In G Major"}/>
+      <GenButton type={"button"} str={"Add New Progression"}/>
       <RandomChordsInG />
     </div>
   );
