@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import RandomChordsInG from './KeyOfG';
 
 
-const GenButton = ({type, value, str}) => {
+const GenButton = ({type, value, label}) => {
     
+    const [chords, setChords] = useState(<RandomChordsInG/>)
 
     return (
         <div>
-            <button type={type} value={value} >{`${str}`}</button>
+            <input onClick={() => setChords(<RandomChordsInG/>)} className="gen-button" label={label} type={type} value={value} />
+            {chords}
         </div>
     )
 }

@@ -17,3 +17,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border-radius: 100%; */
 }
+
+.g-chords {
+    margin: 2rem;
+}
+.gen-button {
+    padding: 20px;
+    border-radius: 10px;
+    /* border: none; */
+}
